@@ -14,5 +14,9 @@ class B(A):
 a = A()
 b = B()
 print (a.f(), b.f())
+print (a.g(), b.g())
 
-	
+#output:-->
+
+#A B
+#A B

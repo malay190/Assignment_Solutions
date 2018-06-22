@@ -23,7 +23,7 @@ class moviedetails:
 		self.artistname=artistname
 		self.year_of_release=year_of_release
 		self.ratings=ratings
-	
+		print("")
 		
 a=moviedetails(input("enter the new movie:"),input("enter the artistname:"),input("enter the year_of_release:"),input("enter the ratings"))
 a.display()

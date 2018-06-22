@@ -24,9 +24,10 @@ class cop:
 class mission(cop):
 	def add_mission_details(self):
 		super().display()
-		super().update(input("enter your name"),int(input("enter your age")),int(input("enter your work_experience")),input("enter your designation"))
+		super().update(input("enter your name:"),int(input("enter your age:")),int(input("enter your work_experience:")),input("enter your designation:"))
 		super().display()
-c=mission(input("enter your name"),int(input("enter your age")),int(input("enter your work_experience")),input("enter your designation"))
+		
+c=mission(input("enter your name:"),int(input("enter your age:")),int(input("enter your work_experience:")),input("enter your designation:"))
 c.add_mission_details()		
 		
 	

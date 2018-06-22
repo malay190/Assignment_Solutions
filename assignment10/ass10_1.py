@@ -13,7 +13,7 @@ class tiger(animal):
 		print("Tiger is a carnivorus animal")
 		
 
-c=tiger(int(input("enter no legs of tiger")))
+c=tiger(int(input("enter no legs of tiger:")))
 c.ani()
 c.display()
 		
