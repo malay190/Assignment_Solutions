@@ -2,11 +2,11 @@
 
 import tweepy
 
-consumer_key_038="x4gCP3GKdAZteLrhmP5okLjfA"
-consumer_secret_038="XoXNqNOrI51YVdCwtUFIGUAVWLOJ83OvmCI7zBj3fH5rBiC52E"
+consumer_key_038="x4gCP3GKdAZ************"
+consumer_secret_038="XoXNqNOrI51YVdC************************"
 
-access_token_038="2919790812-7ojnQkrdt5DKcW7cMxumlo2WU4KbX8JYZqnTHT9"
-access_token_secret_038="hDVkdg6F0DEgMGYsAEEezec09HShx9MpI2JQK69jmcIQu"
+access_token_038="291**************-7ojnQkrdt****************THT9"
+access_token_secret_038="h******************************"
 
 auth=tweepy.OAuthHandler(consumer_key_038,consumer_secret_038)
 auth.set_access_token(access_token_038,access_token_secret_038)
