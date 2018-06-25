@@ -1,0 +1,20 @@
+Q.2- Get the IP address of some common sites like Google, Facebook by using DNS lookup.
+
+C:\Users\Malay Kumar>nslookup facebook.com
+Server:  UnKnown
+Address:  192.168.43.1
+
+Non-authoritative answer:
+Name:    facebook.com
+Addresses:  2a03:2880:f12f:83:face:b00c:0:25de
+          157.240.16.35
+
+
+C:\Users\Malay Kumar>nslookup youtube.com
+Server:  UnKnown
+Address:  192.168.43.1
+
+Non-authoritative answer:
+Name:    youtube.com
+Addresses:  2404:6800:4002:806::200e
+          216.58.221.46
