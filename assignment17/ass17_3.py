@@ -8,7 +8,7 @@ def exit():
 	sys.exit()
 	
 def edit():
-	label.config(text="HEllo Python!")
+	label.config(text="Chai Piloo!")
 	
 root=Tk()
 root.title("window")
@@ -18,7 +18,7 @@ root.minsize(200,200)
 root.maxsize(300,300)
 root.configure(background="Beige")
 
-label=Label(root,text='Hello World!')
+label=Label(root,text='Hello Fraand!')
 label.pack()
 
 f=Frame(root)
