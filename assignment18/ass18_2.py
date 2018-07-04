@@ -8,8 +8,9 @@ dic={"rahul":95943053548,"mohit":84593745722,"malay":94524592345,"rajan":8765432
 
 def insert():
 	dic[entry1.get()]=int(entry2.get())
-	l.insert(END,entry1.get())
+	l.insert(END, '{}: {}'.format(entry1.get(), entry2.get()))
 	print(dic)
+	
 root=Tk()
 root.title("window")
 root.geometry("250x250")
@@ -33,8 +34,10 @@ f.pack(side=LEFT)
 s=Scrollbar(f)
 s.pack(side=RIGHT,fill=Y)
 l=Listbox(f,yscrollcommand=s.set)
-for x in dic:
-	l.insert(END,x)
+
+for key in dic:
+    l.insert(END, '{}: {}'.format(key, dic[key]))
+	
 l.pack(side=LEFT,fill=BOTH)
 s.config(command=l.yview())
 
