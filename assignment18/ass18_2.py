@@ -31,6 +31,9 @@ b.pack()
 f=Frame()
 f.pack(side=LEFT)
 
+label=Label(f,text="MY LIST")
+label.pack()
+
 s=Scrollbar(f)
 s.pack(side=RIGHT,fill=Y)
 l=Listbox(f,yscrollcommand=s.set)
